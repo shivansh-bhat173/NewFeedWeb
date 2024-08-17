@@ -1,0 +1,152 @@
+
+.signupform{
+padding-top: 20px;
+  max-height: 80vh;
+  width: 30vw;
+  align-items: center;
+  box-shadow: 0 6px 20px 0 rgb(0 0 0 / 19%);
+   
+}
+.post{
+  
+  border: 1px #d1d5d9 solid;
+    border-radius: 20px;
+    padding: 0 20px;
+    background-color: white;
+    color: #6c5a5a;
+    margin: 20px 60px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+  .create-btn{
+    display: flex;
+    justify-content: center;
+  }
+  .postbox{
+    background-color: #dfdfdf;
+    width: 70%;
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+ margin-top: 50px;
+ border-radius: 20px;
+ border: 1px #d1d5d9 solid;
+ padding: 40px;
+}
+.header{
+  font-size: 25px;
+  text-align: center;
+  text-decoration: none;
+  background-image: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+  border: 0;
+  border-radius: 3px;
+  box-shadow: 0 3px 5px 2px rgba(255, 105, 135, .3);
+  color: white;
+    padding: 0 20px;
+}
+
+.mb-2{
+  margin: 15px;
+}
+
+.container{
+  justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.text-center{
+  text-align: center;
+}
+.flex{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box{
+  display: flex;
+  justify-content: center;
+}
+.pagination{
+  margin: 10px 0 0 20px;
+}
+.pagin-div{
+display: flex;
+justify-content: space-evenly;
+}
+
+.text-decoration{
+  text-decoration: none;
+  Color:black
+}
+.card-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background-color: rgb(236, 234, 234);
+  }
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  text-shadow: 2px 2px 2px gray;
+  color: black;
+}
+
+.flip-card-front {
+  background-color: white;
+  color: rgb(82, 80, 80);
+}
+
+.flip-card-back {
+  background-color: #bdbbbb;
+  color: white;
+  transform: rotateY(180deg);
+}
+.icon{
+  padding: 20px;
+}
+.votes{
+  font-size: 30px;
+}
+.far,.fas{
+  margin: 0 20px;
+}
+.center-avatar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0;
+}
+.css-1ri6ub7-MuiPaper-root-MuiCard-root{
+  box-shadow: none!important;
+  background-color: inherit!important
+}
